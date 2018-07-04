@@ -29,7 +29,7 @@ public class CheeseController {
     private CategoryDao categoryDao;
 
 
-    // Request path: /cheese
+
     @RequestMapping(value="")
     public String index(Model model) {
 
